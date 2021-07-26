@@ -1,0 +1,55 @@
+\documentclass{standalone}
+
+\usepackage{amssymb, latexsym}
+\usepackage{tikz}
+\usetikzlibrary{backgrounds}
+\usetikzlibrary{arrows, arrows.meta}
+\usetikzlibrary{decorations.pathreplacing}
+
+
+\usepackage{rotating}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{amsmath,bm,times}
+\usetikzlibrary{quotes}
+
+\usetikzlibrary{shapes,arrows, ,decorations.markings}
+\usetikzlibrary{calc,positioning}
+
+
+\tikzstyle{Blk1}=[draw, text width=3em, text centered, minimum height=3em, minimum width=8em]
+\tikzstyle{Blk2}=[draw, text width=8em, text centered, minimum height=7em, minimum width=10em]
+\tikzstyle{Blk3}=[draw, text width=8em, text centered, minimum height=13em, minimum width=13em]
+
+
+\tikzstyle{vecArrow} = [thick, decoration={markings,mark=at position
+    1 with {\arrow[semithick]{open triangle 60}}},
+    double distance=1.4pt, shorten >= 5.5pt,
+    preaction = {decorate},
+    postaction = {draw,line width=1.4pt, white,shorten >= 4.5pt}]
+
+\begin{document}
+\begin{tikzpicture}
+    \node at (0,0) (pc) {\includegraphics[scale=0.5]{PCSymb.png}};
+
+    \node[Blk1] at ([xshift=18em]pc) (ftdi) {USB-UART};
+
+
+    \node[Blk2] at ([xshift=15em]ftdi) (fpga) {FPGA};
+
+    \node[Blk3] at ([xshift=18em]fpga) (vga) {VGA Monitor};
+
+
+    \draw[latex'-latex',thin, double] (pc.east) -- (ftdi.west);
+
+
+    \draw[-{Triangle}] ([yshift=1em]ftdi.east) node[xshift=-0.5em] {\tiny TX}  --
+    ([yshift=1em]fpga.west) node[xshift=2em] {\tiny RX (JC1 - V15)};
+    \draw[-{Triangle}] ([yshift=-1em]fpga.west) node[xshift=2em] {\tiny TX (JC2 - W15)} --
+    ([yshift=-1em]ftdi.east) node[xshift=-0.5em] {\tiny RX} ;
+
+
+    \draw[vecArrow] (fpga.east) -- (vga.west) node[pos=0.5, above] {\small VGA Interface};
+
+\end{tikzpicture}
+\end{document}

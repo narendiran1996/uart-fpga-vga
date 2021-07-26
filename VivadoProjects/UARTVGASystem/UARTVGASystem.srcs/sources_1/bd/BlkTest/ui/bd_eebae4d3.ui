@@ -1,0 +1,37 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.19  2019-03-26 bk=1.5019 VDI=41 GEI=35 GUI=JA:9.0 TLS
+#  -string -flagsOSRD
+preplace port clk -pg 1 -lvl 0 -x 0 -y 80 -defaultsOSRD
+preplace port rst -pg 1 -lvl 0 -x 0 -y 100 -defaultsOSRD
+preplace port hSYNC -pg 1 -lvl 3 -x 780 -y 380 -defaultsOSRD
+preplace port vSYNC -pg 1 -lvl 3 -x 780 -y 400 -defaultsOSRD
+preplace port txSignal -pg 1 -lvl 3 -x 780 -y 300 -defaultsOSRD
+preplace port rxSignal -pg 1 -lvl 0 -x 0 -y 120 -defaultsOSRD
+preplace portBus R -pg 1 -lvl 3 -x 780 -y 320 -defaultsOSRD
+preplace portBus G -pg 1 -lvl 3 -x 780 -y 340 -defaultsOSRD
+preplace portBus B -pg 1 -lvl 3 -x 780 -y 360 -defaultsOSRD
+preplace portBus ledOut -pg 1 -lvl 3 -x 780 -y 20 -defaultsOSRD
+preplace inst imageDisplay_0 -pg 1 -lvl 1 -x 270 -y 350 -defaultsOSRD
+preplace inst blk_mem_gen_0 -pg 1 -lvl 2 -x 640 -y 160 -defaultsOSRD
+preplace inst UARTBRAMInterface_0 -pg 1 -lvl 1 -x 270 -y 100 -defaultsOSRD
+preplace netloc Net 1 0 2 30 200 510
+preplace netloc rst_1 1 0 1 20 100n
+preplace netloc blk_mem_gen_0_doutb 1 0 2 40 240 NJ
+preplace netloc imageDisplay_0_VGA_Image_AddressOut 1 1 1 520 200n
+preplace netloc imageDisplay_0_R 1 1 2 NJ 320 NJ
+preplace netloc imageDisplay_0_G 1 1 2 NJ 340 NJ
+preplace netloc imageDisplay_0_B 1 1 2 NJ 360 NJ
+preplace netloc imageDisplay_0_hSYNC 1 1 2 NJ 380 NJ
+preplace netloc imageDisplay_0_vSYNC 1 1 2 NJ 400 NJ
+preplace netloc UARTBRAMInterface_0_txSignal 1 1 2 510J 20 750J
+preplace netloc rxSignal_1 1 0 1 NJ 120
+preplace netloc UARTBRAMInterface_0_ledOut 1 1 2 500J 10 760J
+preplace netloc UARTBRAMInterface_0_addressVal 1 1 1 N 100
+preplace netloc UARTBRAMInterface_0_dataOut 1 1 1 N 140
+preplace netloc UARTBRAMInterface_0_we 1 1 1 500 120n
+levelinfo -pg 1 0 270 640 780
+pagesize -pg 1 -db -bbox -sgen -110 0 920 460
+"
+}
+

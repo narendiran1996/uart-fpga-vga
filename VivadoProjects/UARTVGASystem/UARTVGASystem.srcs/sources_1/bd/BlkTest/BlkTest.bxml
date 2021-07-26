@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root MajorVersion="0" MinorVersion="37">
+  <CompositeFile CompositeFileTopName="BlkTest" CanBeSetAsTop="false" CanDisplayChildGraph="true">
+    <Description>Composite Fileset</Description>
+    <Generation Name="SYNTHESIS" State="RESET" Timestamp="1627261457"/>
+    <Generation Name="IMPLEMENTATION" State="RESET" Timestamp="1627261457"/>
+    <Generation Name="SIMULATION" State="RESET" Timestamp="1627261457"/>
+    <Generation Name="HW_HANDOFF" State="RESET" Timestamp="1627261457"/>
+    <FileCollection Name="SOURCES" Type="SOURCES">
+      <File Name="ip/BlkTest_imageDisplay_0_0/BlkTest_imageDisplay_0_0.xci" Type="IP">
+        <Instance HierarchyPath="imageDisplay_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/BlkTest_UARTBRAMInterface_0_0/BlkTest_UARTBRAMInterface_0_0.xci" Type="IP">
+        <Instance HierarchyPath="UARTBRAMInterface_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/BlkTest_blk_mem_gen_0_0/BlkTest_blk_mem_gen_0_0.xci" Type="IP">
+        <Instance HierarchyPath="blk_mem_gen_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+    </FileCollection>
+  </CompositeFile>
+</Root>

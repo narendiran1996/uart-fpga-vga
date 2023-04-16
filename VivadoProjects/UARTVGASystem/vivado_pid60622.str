@@ -1,0 +1,185 @@
+/*
+
+Xilinx Vivado v2019.1 (64-bit) [Major: 2019, Minor: 1]
+SW Build: 2552052 on Fri May 24 14:47:09 MDT 2019
+IP Build: 2548770 on Fri May 24 18:01:18 MDT 2019
+
+Process ID (PID): 60622
+License: Customer
+
+Current time: 	Thu Apr 13 05:34:47 IST 2023
+Time zone: 	India Standard Time (Asia/Kolkata)
+
+OS: Ubuntu
+OS Version: 5.4.0-146-generic
+OS Architecture: amd64
+Available processors (cores): 4
+
+Display: :0
+Screen size: 1600x900
+Screen resolution (DPI): 100
+Available screens: 1
+Available disk space: 11 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	/media/narendiran/ubuntu_install/Vivado/2019.1/tps/lnx64/jre9.0.4
+Java executable location: 	/media/narendiran/ubuntu_install/Vivado/2019.1/tps/lnx64/jre9.0.4/bin/java
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	narendiran
+User home directory: /home/narendiran
+User working directory: /media/narendiran/MOVIES/UARTVGASystem/VivadoProjects/UARTVGASystem
+User country: 	IN
+User language: 	en
+User locale: 	en_IN
+
+RDI_BASEROOT: /media/narendiran/ubuntu_install/Vivado
+HDI_APPROOT: /media/narendiran/ubuntu_install/Vivado/2019.1
+RDI_DATADIR: /media/narendiran/ubuntu_install/Vivado/2019.1/data
+RDI_BINDIR: /media/narendiran/ubuntu_install/Vivado/2019.1/bin
+
+Vivado preferences file location: /home/narendiran/.Xilinx/Vivado/2019.1/vivado.xml
+Vivado preferences directory: /home/narendiran/.Xilinx/Vivado/2019.1/
+Vivado layouts directory: /home/narendiran/.Xilinx/Vivado/2019.1/layouts
+PlanAhead jar file location: 	/media/narendiran/ubuntu_install/Vivado/2019.1/lib/classes/planAhead.jar
+Vivado log file location: 	/media/narendiran/MOVIES/UARTVGASystem/VivadoProjects/UARTVGASystem/vivado.log
+Vivado journal file location: 	/media/narendiran/MOVIES/UARTVGASystem/VivadoProjects/UARTVGASystem/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-60622-narendiran-X556UQK
+
+Xilinx Environment Variables
+----------------------------
+ANDROID_SDK_ROOT: /media/narendiran/ubuntu_install/AndroidInstalled/Android/Sdk
+XILINX: /media/narendiran/ubuntu_install/Vivado/2019.1/ids_lite/ISE
+XILINX_DSP: /media/narendiran/ubuntu_install/Vivado/2019.1/ids_lite/ISE
+XILINX_PLANAHEAD: /media/narendiran/ubuntu_install/Vivado/2019.1
+XILINX_SDK: /media/narendiran/ubuntu_install/SDK/2019.1
+XILINX_VIVADO: /media/narendiran/ubuntu_install/Vivado/2019.1
+XILINX_VIVADO_HLS: /media/narendiran/ubuntu_install/Vivado/2019.1
+
+
+GUI allocated memory:	128 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 813 MB
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 100 MB (+102819kb) [00:00:30]
+// [Engine Memory]: 799 MB (+686496kb) [00:00:30]
+// by (cl):  Open Project : addNotify
+// Opening Vivado Project: UARTVGASystem.xpr. Version: Vivado v2019.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project UARTVGASystem.xpr 
+// HMemoryUtils.trashcanNow. Engine heap size: 823 MB. GUI used memory: 45 MB. Current time: 4/13/23, 5:34:50 AM IST
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 935 MB (+100566kb) [00:00:54]
+// [Engine Memory]: 982 MB (+200kb) [00:00:56]
+// WARNING: HEventQueue.dispatchEvent() is taking  6111 ms.
+// Tcl Message: open_project UARTVGASystem.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from '/mnt/18C846EDC846C928/UARTVGASystem/VivadoProjects/UARTVGASystem' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/media/narendiran/ubuntu_install/Vivado/2019.1/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,006 MB. GUI used memory: 52 MB. Current time: 4/13/23, 5:35:14 AM IST
+// Tcl Message: open_project: Time (s): cpu = 00:00:29 ; elapsed = 00:00:27 . Memory (MB): peak = 6520.469 ; gain = 187.094 ; free physical = 149 ; free virtual = 15064 
+// Project name: UARTVGASystem; location: /media/narendiran/MOVIES/UARTVGASystem/VivadoProjects/UARTVGASystem; part: xc7z010clg400-1
+dismissDialog("Open Project"); // by (cl)
+// [GUI Memory]: 109 MB (+3721kb) [00:01:01]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// [Engine Memory]: 1,071 MB (+41504kb) [00:01:08]
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 33 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Language Templates]", 3, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_LANGUAGE_TEMPLATES
+// a (cl): Language Templates: addNotify
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, IP Catalog]", 4, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_CORE_GEN
+applyEscape(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, (String) null); // u (O, cl)
+// by (SwingUtilities.SharedOwnerFrame):  Open IP Catalog : addNotify
+dismissDialog("Open IP Catalog"); // by (SwingUtilities.SharedOwnerFrame)
+selectButton(RDIResource.BaseDialog_CLOSE, "Close"); // a (a)
+dismissDialog("Language Templates"); // a (cl)
+collapseTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "User Repository ;  ;  ;  ; ", 0); // L (O, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, BlkTest_wrapper (BlkTest_wrapper.v)]", 1); // B (F, cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 55 MB. Current time: 4/13/23, 5:36:00 AM IST
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, BlkTest_wrapper (BlkTest_wrapper.v), BlkTest_i : BlkTest (BlkTest.bd)]", 2); // B (F, cl)
+// PAPropertyPanels.initPanels (BlkTest_wrapper.v) elapsed time: 0.2s
+// Elapsed time: 26 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, BlkTest_wrapper (BlkTest_wrapper.v)]", 10, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, BlkTest_wrapper (BlkTest_wrapper.v)]", 10, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 8, true, false, false, false, true, false); // B (F, cl) - Popup Trigger - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, BlkTest_wrapper (BlkTest_wrapper.v), BlkTest_i : BlkTest (BlkTest.bd)]", 2, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, BlkTest_wrapper (BlkTest_wrapper.v), BlkTest_i : BlkTest (BlkTest.bd)]", 2, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, BlkTest_wrapper (BlkTest_wrapper.v), BlkTest_i : BlkTest (BlkTest.bd)]", 2, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+// by (cl):  Open Block Design : addNotify
+// Tcl Message: open_bd_design {/media/narendiran/MOVIES/UARTVGASystem/VivadoProjects/UARTVGASystem/UARTVGASystem.srcs/sources_1/bd/BlkTest/BlkTest.bd} 
+// TclEventType: LOAD_FEATURE
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: LOAD_FEATURE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: Adding component instance block -- xilinx.com:module_ref:imageDisplay:1.0 - imageDisplay_0 Adding component instance block -- xilinx.com:ip:blk_mem_gen:8.4 - blk_mem_gen_0 Adding component instance block -- xilinx.com:module_ref:UARTBRAMInterface:1.0 - UARTBRAMInterface_0 Successfully read diagram <BlkTest> from BD file </media/narendiran/MOVIES/UARTVGASystem/VivadoProjects/UARTVGASystem/UARTVGASystem.srcs/sources_1/bd/BlkTest/BlkTest.bd> 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,134 MB. GUI used memory: 58 MB. Current time: 4/13/23, 5:36:40 AM IST
+// TclEventType: RSB_OPEN_DIAGRAM
+// [Engine Memory]: 1,155 MB (+31938kb) [00:02:27]
+// WARNING: HEventQueue.dispatchEvent() is taking  2477 ms.
+// TclEventType: RSB_CONNECTION_CHANGE
+// [GUI Memory]: 115 MB (+604kb) [00:02:30]
+// Elapsed time: 11 seconds
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// TclEventType: RSB_CONNECTION_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// Tcl Message: open_bd_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 6663.652 ; gain = 65.387 ; free physical = 157 ; free virtual = 14909 
+dismissDialog("Open Block Design"); // by (cl)
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// r (cl): Re-customize IP: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 1,207 MB. GUI used memory: 68 MB. Current time: 4/13/23, 5:36:55 AM IST
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Other Options", 3); // bg (E, r)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port B Options", 2); // bg (E, r)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port A Options", 1); // bg (E, r)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (r)
+dismissDialog("Re-customize IP"); // r (cl)
+// [GUI Memory]: 125 MB (+4588kb) [00:03:06]
+// Elapsed time: 258 seconds
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // R (aH, cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,210 MB. GUI used memory: 68 MB. Current time: 4/13/23, 11:08:36 PM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,210 MB. GUI used memory: 60 MB. Current time: 4/13/23, 11:38:36 PM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,210 MB. GUI used memory: 60 MB. Current time: 4/14/23, 12:08:36 AM IST

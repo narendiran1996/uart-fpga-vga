@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Apr 13 05:33:32 2023
+# Process ID: 60622
+# Current directory: /media/narendiran/MOVIES/UARTVGASystem/VivadoProjects/UARTVGASystem
+# Command line: vivado UARTVGASystem.xpr
+# Log file: /media/narendiran/MOVIES/UARTVGASystem/VivadoProjects/UARTVGASystem/vivado.log
+# Journal file: /media/narendiran/MOVIES/UARTVGASystem/VivadoProjects/UARTVGASystem/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project UARTVGASystem.xpr
+INFO: [Project 1-313] Project file moved from '/mnt/18C846EDC846C928/UARTVGASystem/VivadoProjects/UARTVGASystem' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/media/narendiran/ubuntu_install/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:29 ; elapsed = 00:00:27 . Memory (MB): peak = 6520.469 ; gain = 187.094 ; free physical = 149 ; free virtual = 15064
+update_compile_order -fileset sources_1
+open_bd_design {/media/narendiran/MOVIES/UARTVGASystem/VivadoProjects/UARTVGASystem/UARTVGASystem.srcs/sources_1/bd/BlkTest/BlkTest.bd}
+Adding component instance block -- xilinx.com:module_ref:imageDisplay:1.0 - imageDisplay_0
+Adding component instance block -- xilinx.com:ip:blk_mem_gen:8.4 - blk_mem_gen_0
+Adding component instance block -- xilinx.com:module_ref:UARTBRAMInterface:1.0 - UARTBRAMInterface_0
+Successfully read diagram <BlkTest> from BD file </media/narendiran/MOVIES/UARTVGASystem/VivadoProjects/UARTVGASystem/UARTVGASystem.srcs/sources_1/bd/BlkTest/BlkTest.bd>
+open_bd_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 6663.652 ; gain = 65.387 ; free physical = 157 ; free virtual = 14909
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget

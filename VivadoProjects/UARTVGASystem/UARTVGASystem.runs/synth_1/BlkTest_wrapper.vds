@@ -1,0 +1,291 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Jul 26 06:25:27 2021
+# Process ID: 329943
+# Current directory: /mnt/18C846EDC846C928/UARTVGASystem/VivadoProjects/UARTVGASystem/UARTVGASystem.runs/synth_1
+# Command line: vivado -log BlkTest_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source BlkTest_wrapper.tcl
+# Log file: /mnt/18C846EDC846C928/UARTVGASystem/VivadoProjects/UARTVGASystem/UARTVGASystem.runs/synth_1/BlkTest_wrapper.vds
+# Journal file: /mnt/18C846EDC846C928/UARTVGASystem/VivadoProjects/UARTVGASystem/UARTVGASystem.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source BlkTest_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/media/narendiran/ubuntu_install/Vivado/2019.1/data/ip'.
+add_files: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1410.840 ; gain = 8.008 ; free physical = 853 ; free virtual = 12246
+Command: synth_design -top BlkTest_wrapper -part xc7z010clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 330025 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1766.828 ; gain = 155.715 ; free physical = 488 ; free virtual = 11844
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'BlkTest_wrapper' [/mnt/18C846EDC846C928/UARTVGASystem/VivadoProjects/UARTVGASystem/UARTVGASystem.srcs/sources_1/bd/BlkTest/hdl/BlkTest_wrapper.v:12]
+INFO: [Synth 8-6157] synthesizing module 'BlkTest' [/mnt/18C846EDC846C928/UARTVGASystem/VivadoProjects/UARTVGASystem/UARTVGASystem.srcs/sources_1/bd/BlkTest/synth/BlkTest.v:13]
+INFO: [Synth 8-6157] synthesizing module 'BlkTest_UARTBRAMInterface_0_0' [/mnt/18C846EDC846C928/UARTVGASystem/VivadoProjects/UARTVGASystem/UARTVGASystem.runs/synth_1/.Xil/Vivado-329943-narendiran-X556UQK/realtime/BlkTest_UARTBRAMInterface_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'BlkTest_UARTBRAMInterface_0_0' (1#1) [/mnt/18C846EDC846C928/UARTVGASystem/VivadoProjects/UARTVGASystem/UARTVGASystem.runs/synth_1/.Xil/Vivado-329943-narendiran-X556UQK/realtime/BlkTest_UARTBRAMInterface_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'BlkTest_blk_mem_gen_0_0' [/mnt/18C846EDC846C928/UARTVGASystem/VivadoProjects/UARTVGASystem/UARTVGASystem.runs/synth_1/.Xil/Vivado-329943-narendiran-X556UQK/realtime/BlkTest_blk_mem_gen_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'BlkTest_blk_mem_gen_0_0' (2#1) [/mnt/18C846EDC846C928/UARTVGASystem/VivadoProjects/UARTVGASystem/UARTVGASystem.runs/synth_1/.Xil/Vivado-329943-narendiran-X556UQK/realtime/BlkTest_blk_mem_gen_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'BlkTest_imageDisplay_0_0' [/mnt/18C846EDC846C928/UARTVGASystem/VivadoProjects/UARTVGASystem/UARTVGASystem.runs/synth_1/.Xil/Vivado-329943-narendiran-X556UQK/realtime/BlkTest_imageDisplay_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'BlkTest_imageDisplay_0_0' (3#1) [/mnt/18C846EDC846C928/UARTVGASystem/VivadoProjects/UARTVGASystem/UARTVGASystem.runs/synth_1/.Xil/Vivado-329943-narendiran-X556UQK/realtime/BlkTest_imageDisplay_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'BlkTest' (4#1) [/mnt/18C846EDC846C928/UARTVGASystem/VivadoProjects/UARTVGASystem/UARTVGASystem.srcs/sources_1/bd/BlkTest/synth/BlkTest.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'BlkTest_wrapper' (5#1) [/mnt/18C846EDC846C928/UARTVGASystem/VivadoProjects/UARTVGASystem/UARTVGASystem.srcs/sources_1/bd/BlkTest/hdl/BlkTest_wrapper.v:12]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 1822.578 ; gain = 211.465 ; free physical = 503 ; free virtual = 11867
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1828.516 ; gain = 217.402 ; free physical = 486 ; free virtual = 11858
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1828.516 ; gain = 217.402 ; free physical = 486 ; free virtual = 11858
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/mnt/18C846EDC846C928/UARTVGASystem/VivadoProjects/UARTVGASystem/UARTVGASystem.srcs/sources_1/bd/BlkTest/ip/BlkTest_imageDisplay_0_0/BlkTest_imageDisplay_0_0/BlkTest_imageDisplay_0_0_in_context.xdc] for cell 'BlkTest_i/imageDisplay_0'
+Finished Parsing XDC File [/mnt/18C846EDC846C928/UARTVGASystem/VivadoProjects/UARTVGASystem/UARTVGASystem.srcs/sources_1/bd/BlkTest/ip/BlkTest_imageDisplay_0_0/BlkTest_imageDisplay_0_0/BlkTest_imageDisplay_0_0_in_context.xdc] for cell 'BlkTest_i/imageDisplay_0'
+Parsing XDC File [/mnt/18C846EDC846C928/UARTVGASystem/VivadoProjects/UARTVGASystem/UARTVGASystem.srcs/sources_1/bd/BlkTest/ip/BlkTest_UARTBRAMInterface_0_0/BlkTest_UARTBRAMInterface_0_0/BlkTest_UARTBRAMInterface_0_0_in_context.xdc] for cell 'BlkTest_i/UARTBRAMInterface_0'
+Finished Parsing XDC File [/mnt/18C846EDC846C928/UARTVGASystem/VivadoProjects/UARTVGASystem/UARTVGASystem.srcs/sources_1/bd/BlkTest/ip/BlkTest_UARTBRAMInterface_0_0/BlkTest_UARTBRAMInterface_0_0/BlkTest_UARTBRAMInterface_0_0_in_context.xdc] for cell 'BlkTest_i/UARTBRAMInterface_0'
+Parsing XDC File [/mnt/18C846EDC846C928/UARTVGASystem/VivadoProjects/UARTVGASystem/UARTVGASystem.srcs/sources_1/bd/BlkTest/ip/BlkTest_blk_mem_gen_0_0/BlkTest_blk_mem_gen_0_0/BlkTest_blk_mem_gen_0_0_in_context.xdc] for cell 'BlkTest_i/blk_mem_gen_0'
+Finished Parsing XDC File [/mnt/18C846EDC846C928/UARTVGASystem/VivadoProjects/UARTVGASystem/UARTVGASystem.srcs/sources_1/bd/BlkTest/ip/BlkTest_blk_mem_gen_0_0/BlkTest_blk_mem_gen_0_0/BlkTest_blk_mem_gen_0_0_in_context.xdc] for cell 'BlkTest_i/blk_mem_gen_0'
+Parsing XDC File [/mnt/18C846EDC846C928/UARTVGASystem/VivadoProjects/UARTVGASystem/UARTVGASystem.srcs/constrs_1/new/combXDC.xdc]
+Finished Parsing XDC File [/mnt/18C846EDC846C928/UARTVGASystem/VivadoProjects/UARTVGASystem/UARTVGASystem.srcs/constrs_1/new/combXDC.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/mnt/18C846EDC846C928/UARTVGASystem/VivadoProjects/UARTVGASystem/UARTVGASystem.srcs/constrs_1/new/combXDC.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/BlkTest_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/BlkTest_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [/mnt/18C846EDC846C928/UARTVGASystem/VivadoProjects/UARTVGASystem/UARTVGASystem.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/mnt/18C846EDC846C928/UARTVGASystem/VivadoProjects/UARTVGASystem/UARTVGASystem.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1890.184 ; gain = 0.000 ; free physical = 361 ; free virtual = 11746
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1890.184 ; gain = 0.000 ; free physical = 361 ; free virtual = 11745
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'BlkTest_i/blk_mem_gen_0' at clock pin 'clka' is different from the actual clock period '8.000', this can lead to different synthesis results.
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 1893.152 ; gain = 282.039 ; free physical = 388 ; free virtual = 11771
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 1893.152 ; gain = 282.039 ; free physical = 388 ; free virtual = 11771
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for BlkTest_i. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for BlkTest_i/imageDisplay_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for BlkTest_i/UARTBRAMInterface_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for BlkTest_i/blk_mem_gen_0. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 1893.152 ; gain = 282.039 ; free physical = 389 ; free virtual = 11772
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 1893.152 ; gain = 282.039 ; free physical = 384 ; free virtual = 11770
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 1893.152 ; gain = 282.039 ; free physical = 374 ; free virtual = 11762
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:00:25 . Memory (MB): peak = 1904.152 ; gain = 293.039 ; free physical = 237 ; free virtual = 11617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:25 . Memory (MB): peak = 1904.152 ; gain = 293.039 ; free physical = 238 ; free virtual = 11617
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 1914.168 ; gain = 303.055 ; free physical = 236 ; free virtual = 11615
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:23 ; elapsed = 00:00:27 . Memory (MB): peak = 1928.043 ; gain = 316.930 ; free physical = 214 ; free virtual = 11613
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:23 ; elapsed = 00:00:27 . Memory (MB): peak = 1928.043 ; gain = 316.930 ; free physical = 214 ; free virtual = 11613
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:23 ; elapsed = 00:00:27 . Memory (MB): peak = 1928.043 ; gain = 316.930 ; free physical = 214 ; free virtual = 11613
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:23 ; elapsed = 00:00:27 . Memory (MB): peak = 1928.043 ; gain = 316.930 ; free physical = 214 ; free virtual = 11613
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:23 ; elapsed = 00:00:27 . Memory (MB): peak = 1928.043 ; gain = 316.930 ; free physical = 214 ; free virtual = 11613
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:23 ; elapsed = 00:00:27 . Memory (MB): peak = 1928.043 ; gain = 316.930 ; free physical = 214 ; free virtual = 11613
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+------------------------------+----------+
+|      |BlackBox name                 |Instances |
++------+------------------------------+----------+
+|1     |BlkTest_UARTBRAMInterface_0_0 |         1|
+|2     |BlkTest_blk_mem_gen_0_0       |         1|
+|3     |BlkTest_imageDisplay_0_0      |         1|
++------+------------------------------+----------+
+
+Report Cell Usage: 
++------+------------------------------+------+
+|      |Cell                          |Count |
++------+------------------------------+------+
+|1     |BlkTest_UARTBRAMInterface_0_0 |     1|
+|2     |BlkTest_blk_mem_gen_0_0       |     1|
+|3     |BlkTest_imageDisplay_0_0      |     1|
+|4     |IBUF                          |     3|
+|5     |OBUF                          |    23|
++------+------------------------------+------+
+
+Report Instance Areas: 
++------+------------+--------+------+
+|      |Instance    |Module  |Cells |
++------+------------+--------+------+
+|1     |top         |        |   115|
+|2     |  BlkTest_i |BlkTest |    89|
++------+------------+--------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:23 ; elapsed = 00:00:27 . Memory (MB): peak = 1928.043 ; gain = 316.930 ; free physical = 214 ; free virtual = 11614
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 1928.043 ; gain = 252.293 ; free physical = 273 ; free virtual = 11671
+Synthesis Optimization Complete : Time (s): cpu = 00:00:23 ; elapsed = 00:00:27 . Memory (MB): peak = 1928.051 ; gain = 316.930 ; free physical = 287 ; free virtual = 11685
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1939.949 ; gain = 0.000 ; free physical = 217 ; free virtual = 11615
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+23 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:30 ; elapsed = 00:00:33 . Memory (MB): peak = 1939.949 ; gain = 529.109 ; free physical = 306 ; free virtual = 11704
+INFO: [Common 17-600] The following parameters have non-default value.
+tcl.collectionResultDisplayLimit
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1939.949 ; gain = 0.000 ; free physical = 306 ; free virtual = 11704
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint '/mnt/18C846EDC846C928/UARTVGASystem/VivadoProjects/UARTVGASystem/UARTVGASystem.runs/synth_1/BlkTest_wrapper.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file BlkTest_wrapper_utilization_synth.rpt -pb BlkTest_wrapper_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Jul 26 06:26:22 2021...

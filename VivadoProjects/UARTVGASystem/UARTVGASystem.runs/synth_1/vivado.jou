@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Jul 26 06:25:27 2021
+# Process ID: 329943
+# Current directory: /mnt/18C846EDC846C928/UARTVGASystem/VivadoProjects/UARTVGASystem/UARTVGASystem.runs/synth_1
+# Command line: vivado -log BlkTest_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source BlkTest_wrapper.tcl
+# Log file: /mnt/18C846EDC846C928/UARTVGASystem/VivadoProjects/UARTVGASystem/UARTVGASystem.runs/synth_1/BlkTest_wrapper.vds
+# Journal file: /mnt/18C846EDC846C928/UARTVGASystem/VivadoProjects/UARTVGASystem/UARTVGASystem.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source BlkTest_wrapper.tcl -notrace
